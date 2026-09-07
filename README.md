@@ -1,19 +1,22 @@
-# Hasanur Gaming 99 — Customizable Flutter Starter
+# Hasanur Gaming 99 – Customizable Flutter Project
 
-## Customize
-Open `lib/main.dart` and change:
-- `appName` for the app name
-- `referralCode` for the default referral code
-- Colors in `ThemeData` and the Home gradient
-- Home cards, games, icons and text
+A clean Flutter starter project prepared for GitHub.
+
+## Project structure
+
+- `lib/main.dart` – app entry point
+- `lib/screens/home_page.dart` – main screen
+- `lib/theme/app_theme.dart` – app theme
+- `assets/` – images and other assets
+- `test/` – widget tests
+- `android/` – Android project files
+- `web/` – Web project files
 
 ## Run
-1. Install Flutter and Android Studio.
-2. Run `flutter pub get`.
-3. Run `flutter run`.
-4. Build an Android APK with `flutter build apk --release`.
 
-## Important
-This starter stores demo profile data locally. The referral link is a placeholder domain. For real multi-user registration/referrals, connect a backend/database and configure a real domain/deep link.
+```bash
+flutter pub get
+flutter run
+```
 
-This project is intentionally non-betting and does not implement deposits, withdrawals, wagering, or gambling.
+Replace the sample UI in `lib/` with your own app code when needed.
